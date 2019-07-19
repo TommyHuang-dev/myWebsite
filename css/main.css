@@ -9,6 +9,21 @@ body{
     
 }
 
+.topbar{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.box {
+	background-color:#222222;
+}
+
+.boxtxt {
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    color: #d8d8d8
+}
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
