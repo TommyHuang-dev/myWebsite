@@ -6,9 +6,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
     background-color: rgb(127, 178, 219);
+    border: 2px solid #000000;
     overflow: hidden;
     height: 50px;
     position: relative;
+    vertical-align: middle;
     top: 5px;
     left: 5%;
     width: 90%;
@@ -19,11 +21,12 @@ body{
     background-color: #cec391;
     border: 2px solid #000000;
     overflow: hidden;
-    height: 46px;
+    height: 50px;
     position: absolute;
-    align-self: center;    
+    align-self: center;  
+    vertical-align: middle; 
     left: 175px;
-    top: 0px;
+    top: -2px;
     width: 200px;
     text-align: center;
 }
@@ -34,10 +37,12 @@ a.nounderline {text-decoration: none; }
     background-color: #cec391;
     border: 2px solid #000000;
     overflow: hidden;
-    height: 46px;
+    height: 50px;
     position: relative;
+    vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
+    top: -2px;
     width: 200px;
     text-align: center;
 }
@@ -46,11 +51,11 @@ a.nounderline {text-decoration: none; }
     background-color: #cec391;
     border: 2px solid #000000;
     overflow: hidden;
-    height: 46px;
+    height: 50px;
     position: absolute;
     text-align: center;
     right: 175px;
-    top: 0px;
+    top: -2px;
     width: 200px;
     align-self: center;
 }
