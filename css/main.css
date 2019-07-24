@@ -1,21 +1,22 @@
 body{
-    background-color: #93b7cc
+    background-color: #8db3c9
 }
 
 .topbar{
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
-    background-color: rgb(127, 178, 219);
-    border: 2px solid #000000;
+    background-color: rgb(110, 166, 212);
+    border: 2px #000000;
+    border-bottom-style: solid;
     overflow: hidden;
-    height: 50px;
-    position: relative;
+    height: 90px;
+    position: absolute;
     vertical-align: middle;
-    top: 5px;
-    left: 5%;
-    width: 90%;
-    z-index: 100
+    top: -20px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
 }
 
 .topbar-left{
@@ -29,7 +30,7 @@ body{
     align-self: center;  
     vertical-align: middle; 
     left: 175px;
-    top: -2px;
+    top: 30px;
     width: 200px;
     text-align: center;
 }
@@ -45,7 +46,7 @@ body{
     vertical-align: middle;
     margin-left: auto;  
     margin-right: auto;
-    top: -2px;
+    top: 30px;
     width: 200px;
     text-align: center;
 }
@@ -60,20 +61,21 @@ body{
     position: absolute;
     text-align: center;
     right: 175px;
-    top: -2px;
+    top: 30px;
     width: 200px;
     align-self: center;
 }
 
 .box {
     box-sizing: border-box;
-    background-color: #e0e0e0;
+    background-color: #f5f2ee;
     border: 2px solid #000000;
     position: relative;
     padding: 20px;
     width: 90%;
     margin-left: 5%;
-    top: 25px;
+    top: 600px;
+    z-index: 2;
 }
 
 .boxtxt {
