@@ -3,6 +3,7 @@ body{
 }
 
 .topbar{
+    box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
     background-color: rgb(127, 178, 219);
@@ -18,8 +19,10 @@ body{
 }
 
 .topbar-left{
+    box-sizing: border-box;
     background-color: #cec391;
     border: 2px solid #000000;
+    padding: 5px;
     overflow: hidden;
     height: 50px;
     position: absolute;
@@ -31,16 +34,16 @@ body{
     text-align: center;
 }
 
-a.nounderline {text-decoration: none; }
-
 .topbar-center{
+    box-sizing: border-box;
     background-color: #cec391;
     border: 2px solid #000000;
+    padding: 5px;
     overflow: hidden;
     height: 50px;
     position: relative;
     vertical-align: middle;
-    margin-left: auto;
+    margin-left: auto;  
     margin-right: auto;
     top: -2px;
     width: 200px;
@@ -48,8 +51,10 @@ a.nounderline {text-decoration: none; }
 }
 
 .topbar-right{
+    box-sizing: border-box;
     background-color: #cec391;
     border: 2px solid #000000;
+    padding: 5px;
     overflow: hidden;
     height: 50px;
     position: absolute;
@@ -61,10 +66,11 @@ a.nounderline {text-decoration: none; }
 }
 
 .box {
-    background-color: transparent;
+    box-sizing: border-box;
+    background-color: #e0e0e0;
     border: 2px solid #000000;
     position: relative;
-    padding: 0px;
+    padding: 20px;
     width: 90%;
     margin-left: 5%;
     top: 25px;
@@ -73,8 +79,10 @@ a.nounderline {text-decoration: none; }
 .boxtxt {
     font-family: 'Montserrat', sans-serif;
     font-size:30px;
-    color: #d8d8d8;
+    color: #464646;
 }
+
+a.nounderline {text-decoration: none; color: #0f0f0f;}
 
 /*
 font-family: 'Montserrat', sans-serif;
