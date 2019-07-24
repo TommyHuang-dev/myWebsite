@@ -70,9 +70,11 @@ body{
     box-sizing: border-box;
     background-color: #f5f2ee;
     border: 2px solid #000000;
+    border-radius: 15px;
     position: relative;
     padding: 20px;
     width: 90%;
+    height: 1000px;
     margin-left: 5%;
     top: 600px;
     z-index: 2;
