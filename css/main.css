@@ -1,93 +1,53 @@
-body{
-    background-color: #acc0cc
+
+body {
+    background-color: #E6E6EF;
+    padding: 0px;
+    margin: 0px;
 }
 
-.topbar{
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size:2.0em;
-    background-color: rgb(110, 166, 212);
-    border: 2px #000000;
-    border-bottom-style: solid;
-    overflow: hidden;
-    height: 90px;
-    position: absolute;
-    vertical-align: middle;
-    top: -20px;
+.filler {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size:3.0em;
+    color: rgb(77, 66, 70);
+}
+
+.top-bar {
+    position: relative;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    background-color: #56AFD8;
+    width: 1000px;
+    height: 40px;
+    top: 5%;        
     left: 0px;
+    padding: 0;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.top-bar-link {
+    position: relative;
+    display: inline-block;
+    border: none;
+    width: 330px;
+    height: 20px;
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+}
+
+.big-box {
+    position: relative;
+    margin: 0px;
+    top: -50px;
     width: 100%;
-    z-index: 1;
-}
-
-.topbar-left{
-    box-sizing: border-box;
-    background-color: #cec391;
-    border: 2px solid #000000;
-    padding: 5px;
-    overflow: hidden;
-    height: 50px;
-    position: absolute;
-    align-self: center;  
-    vertical-align: middle; 
-    left: 175px;
-    top: 30px;
-    width: 200px;
+    height: 500px;
     text-align: center;
+    background-color: #354568;
+    z-index: 0;
 }
 
-.topbar-center{
-    box-sizing: border-box;
-    background-color: #cec391;
-    border: 2px solid #000000;
-    padding: 5px;
-    overflow: hidden;
-    height: 50px;
-    position: relative;
-    vertical-align: middle;
-    margin-left: auto;  
-    margin-right: auto;
-    top: 30px;
-    width: 200px;
-    text-align: center;
-}
-
-.topbar-right{
-    box-sizing: border-box;
-    background-color: #cec391;
-    border: 2px solid #000000;
-    padding: 5px;
-    overflow: hidden;
-    height: 50px;
-    position: absolute;
-    text-align: center;
-    right: 175px;
-    top: 30px;
-    width: 200px;
-    align-self: center;
-}
-
-.box {
-    box-sizing: border-box;
-    background-color: #f5f2ee;
-    border: 2px solid #000000;
-    border-radius: 15px;
-    position: relative;
-    padding: 20px;
-    width: 90%;
-    height: 1000px;
-    margin-left: 5%;
-    top: 600px;
-    z-index: 2;
-}
-
-.boxtxt {
-    font-family: 'Roboto', sans-serif;
-    font-size:1.5em;
-    font-weight:lighter;    
-    color: #464646;
-}
-
-a.nounderline {text-decoration: none; color: #0f0f0f;}
 
 /*
 font-family: 'Alegreya Sans', sans-serif;
