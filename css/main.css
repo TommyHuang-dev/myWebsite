@@ -12,14 +12,14 @@ body {
 }
 
 .top-bar {
-    position: relative;
+    position: fixed;
     border: 2px solid black;
     border-left: none;
     border-right: none;
-    background-color: #56AFD8;
-    width: 1000px;
+    background-color: rgb(207, 207, 235);
+    width: 100%;
     height: 40px;
-    top: 5%;        
+    top: 0px;        
     left: 0px;
     padding: 0;
     margin: 0 auto;
@@ -30,7 +30,7 @@ body {
     position: relative;
     display: inline-block;
     border: none;
-    width: 330px;
+    width: 33%;
     height: 20px;
     text-align: center;
     font-size: 2em;
@@ -38,25 +38,62 @@ body {
 }
 
 .big-box {
-    position: relative;
+    position: fixed;
     margin: 0px;
-    top: -50px;
     width: 100%;
-    height: 500px;
+    min-height: 100vh;
     text-align: center;
-    background-color: #354568;
+    background-color: #2a3753;
     z-index: 0;
 }
 
+.big-box-header {
+    position: relative;
+    top: 200px;
+    font-family: 'Roboto', sans-serif;
+    color: #E6E6EF;
+    font-size: 20.0vh;
+}
+
+.big-box-subheader {
+    position: relative;
+    top: 350px;
+    font-family: 'Roboto', sans-serif;
+    color: #E6E6EF;
+    font-size: 5.0vh;
+}
+
+.content-box {
+    position: relative;
+    top: 100vh;
+}
+
+.about-section {
+    background-color: #E6E6EF;
+    position: static;
+    z-index: 10;
+}
+
+.projects-section {
+    background-color: #E6E6EF;
+    position: static;
+    z-index: 10;
+}
+
+.contact-section {
+    background-color: #E6E6EF;
+    z-index: 10;
+    position: static;
+}
 
 /*
-font-family: 'Alegreya Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 Colour scheme:
 Red: #B8336A
 Light blue: #56AFD8
-Dark blue: #354568
+Dark blue: #2a3753
 Gray: #99A7AA
 White: #E6E6EF
 
