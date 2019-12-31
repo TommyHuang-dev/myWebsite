@@ -1,6 +1,6 @@
 
 body {
-    background-color: #E6E6EF;
+    background-color: #E2E2E2;
     padding: 0px;
     margin: 0px;
 }
@@ -12,7 +12,7 @@ body {
     min-height: 100vh;
     top: 0px;
     text-align: center;
-    background-color: #2a3753;
+    background-color: #261e42;
     z-index: 0;
 }
 
@@ -26,8 +26,9 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 8em;
     text-align: center;
-    color: #E6E6EF;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #E9E9E9;
+    background-color: #20204b;
+    box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.22), 0 4px 9px 1px rgba(0, 0, 0, 0.16);
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
     position: relative;
     top: 5.0em;
     font-family: 'Roboto', sans-serif;
-    color: #E6E6EF;
+    color: #E9E9E9;
     font-size: 3em;
 }
 
@@ -52,7 +53,7 @@ h2 {
     text-align: center;
     border: none;
     border-radius: 20px;
-    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.16), 0 3px 6px 0px rgba(0, 0, 0, 0.15);
     background-color: rgb(241, 234, 167);
     color: rgb(25, 25, 25);
     z-index: 20;
@@ -66,8 +67,8 @@ font-family: 'Open Sans', sans-serif;
 Colour scheme:
 Red: #B8336A
 Light blue: #56AFD8
-Dark blue: #2a3753
+Dark blue: #20204b
 Gray: #99A7AA
-White: #E6E6EF
+White: #E2E2E2
 
 */
