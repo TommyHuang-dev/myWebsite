@@ -44,9 +44,22 @@
 
 .contact-section {
     position: relative;
-    top: 15em;
+    top: 14em;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
+    text-align: center;
+}
+
+table.contact {
+    position: relative;
+    table-layout: fixed;
+    width: 50%;
+    left: 25%;
+}
+
+a.contact-links {
+    color: inherit;
+    text-decoration: none;
 }
 
 .projects-section {
