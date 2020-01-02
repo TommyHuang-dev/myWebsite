@@ -4,7 +4,7 @@
 	position: absolute;
 	top: 92vh;
 	width: 100%;
-	height: 200%;
+	height: 100%;
 	z-index: 10;
 }
 
@@ -32,7 +32,7 @@
 
 #about-section {
 	position: relative;
-	width: 70%;
+	width: 60%;
 	height: max-content;
 	padding: 0.8em;
 	margin-top: 10em;
@@ -47,7 +47,7 @@
 
 #contact-section {
 	position: relative;
-	width: 70%;
+	width: 60%;
 	padding: 0.8em;
 	margin: 2em;
 	margin-left: auto;
@@ -75,44 +75,47 @@ a.contact-links {
 #projects-section {
 	position: relative;
 	width: 80%;
-	height: 15em;
-	padding: 0em;
-	margin-top: 2em;
+	height: max-content;
+	padding: 0.5em;
+	margin-top: 2.4em;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Open Sans', sans-serif;
-	border: 1px solid grey;
-	font-size: 1.2em;
-	margin-bottom: 40em;
+	box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.12), 0 2px 4px 0px rgba(0, 0, 0, 0.11);
+	font-size: 1em;
+	margin-bottom: 2em;
+	background-color: rgb(215, 230, 240);
 }
 
 #projects-header {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans' , sans-serif;
 	font-size: 1.6em;
-	font-weight: 400;
-	width: 10em;
+	font-weight: bold;
+	width: 5em;
 	padding: 0.2em;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.12), 0 2px 4px 0px rgba(0, 0, 0, 0.11);
-	background-color: #ececec;
+	border-bottom: 2px solid grey;
 }
 
-table#projects {
-	position: relative;
+table#main-content {
 	table-layout: fixed;
+	margin-top: 0.5em;
 	width: 100%;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+}
+
+td#proj-cell {
+	padding: 0.5em;
+	height: 8em;
 }
 
 .project-box {
 	position: relative;
 	display: inline-block;
 	width: 100%;
-	height: 50%;
-
-	box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.12), 0 2px 4px 0px rgba(0, 0, 0, 0.11);
+	height: 100%;
+	border-radius: 4px;
+	box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.14), 0 1px 4px 0px rgba(0, 0, 0, 0.12);
 	background-color: #ececec;
 }
 
