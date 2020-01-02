@@ -74,17 +74,18 @@ a.contact-links {
 
 #projects-section {
 	position: relative;
-	width: 80%;
+	width: 100%;
 	height: max-content;
-	padding: 0.5em;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 0.6em;
+	padding-bottom: 2em;
 	margin-top: 2.4em;
-	margin-left: auto;
-	margin-right: auto;
 	font-family: 'Open Sans', sans-serif;
-	box-shadow: 0 0px 6px 0px rgba(0, 0, 0, 0.12), 0 2px 4px 0px rgba(0, 0, 0, 0.11);
+	border-top: 0.5em solid rgb(123, 133, 179);
 	font-size: 1em;
 	margin-bottom: 2em;
-	background-color: rgb(215, 230, 240);
+	background-color: rgb(171, 206, 230);
 }
 
 #projects-header {
@@ -101,7 +102,9 @@ a.contact-links {
 table#main-content {
 	table-layout: fixed;
 	margin-top: 0.5em;
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 
 td#proj-cell {
@@ -114,7 +117,9 @@ td#proj-cell {
 	display: inline-block;
 	width: 100%;
 	height: 100%;
+	padding-top: 0.5em;
 	border-radius: 4px;
+	text-align: center;
 	box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.14), 0 1px 4px 0px rgba(0, 0, 0, 0.12);
 	background-color: #ececec;
 }
