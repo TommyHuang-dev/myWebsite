@@ -13,14 +13,14 @@
 	position: absolute;
 	top: 17vh;
 	width: 100%;
-	height: max-content;
+	height: 100%;
 	border-top: 0.5em solid rgb(100, 100, 110);
+	text-align: center;
 	z-index: 1
 }
 
 #portrait {
 	position: absolute;
-	text-align: center;
 	display: block;
 	top: 4em;
 	left: 50%;
@@ -80,7 +80,8 @@ a.contact-links {
 	padding-bottom: 3em;
 	margin-top: 2.4em;
 	font-family: 'Open Sans', sans-serif;
-	border-top: 0.5em solid rgb(123, 133, 179);
+	border-top: 0.5em solid rgb(123, 135, 180);
+	border-bottom: 0.5em solid rgb(123, 135, 180);
 	font-size: 1em;
 	margin-bottom: 0px;
 	background-color: rgb(171, 206, 230);
