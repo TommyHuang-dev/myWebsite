@@ -79,12 +79,12 @@ a.contact-links {
 	padding: 0px;
 	margin: 0px;
 	padding-top: 0.6em;
-	padding-bottom: 2em;
+	padding-bottom: 3em;
 	margin-top: 2.4em;
 	font-family: 'Open Sans', sans-serif;
 	border-top: 0.5em solid rgb(123, 133, 179);
 	font-size: 1em;
-	margin-bottom: 2em;
+	margin-bottom: 0px;
 	background-color: rgb(171, 206, 230);
 }
 
