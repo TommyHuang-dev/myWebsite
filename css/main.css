@@ -1,63 +1,63 @@
 
 body {
-    background-color: #ebebeb;
-    padding: 0px;
-    margin: 0px;
-    height: 100%;
+	background-color: #e7e7e7;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
 }
 
-.big-box {
-    position: fixed;
-    margin: 0px;
-    width: 100%;
-    min-height: 100vh;
-    top: 0px;
-    text-align: center;
-    background-color: #261e42;
-    z-index: 0;
+#big-box {
+	position: fixed;
+	margin: 0px;
+	width: 100%;
+	min-height: 100vh;
+	top: 0px;
+	text-align: center;
+	background-color: #261e42;
+	z-index: 0;
 }
 
 h1 {
-    font-weight: normal;
-    position: relative;
-    top: 1.5em;
-    height: 1.3em;
-    width: 8em;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 8em;
-    text-align: center;
-    color: #E9E9E9;
-    background-color: #20204b;
-    box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.22), 0 4px 9px 1px rgba(0, 0, 0, 0.16);
+	font-weight: normal;
+	position: relative;
+	top: 1.5em;
+	height: 1.3em;
+	width: 8em;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 8em;
+	text-align: center;
+	color: #E9E9E9;
+	background-color: #20204b;
+	box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.22), 0 4px 9px 1px rgba(0, 0, 0, 0.16);
 }
 
 h2 {
-    font-weight: normal;
-    position: relative;
-    top: 5.0em;
-    font-family: 'Roboto', sans-serif;
-    color: #E9E9E9;
-    font-size: 3em;
+	font-weight: normal;
+	position: relative;
+	top: 5.0em;
+	font-family: 'Roboto', sans-serif;
+	color: #E9E9E9;
+	font-size: 3em;
 }
 
-.resume-button {
-    position: sticky;
-    padding: 0.4em;
-    height: 2em;
-    width: 9em;
-    left: 88%;
-    top: 1.5em;
-    font-size: 1em;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 2em;
-    text-align: center;
-    border: none;
-    border-radius: 1.5em;
-    box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.16), 0 3px 6px 0px rgba(0, 0, 0, 0.15);
-    background-color: rgb(241, 234, 167);
-    color: rgb(25, 25, 25);
-    z-index: 20;
+#resume-button {
+	position: sticky;
+	padding: 0.4em;
+	height: 2em;
+	width: 9em;
+	left: 88%;
+	top: 1.5em;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2em;
+	text-align: center;
+	border: none;
+	border-radius: 1.5em;
+	box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.16), 0 3px 6px 0px rgba(0, 0, 0, 0.15);
+	background-color: rgb(175, 218, 247);
+	color: rgb(25, 25, 25);
+	z-index: 20;
 }
 
 
