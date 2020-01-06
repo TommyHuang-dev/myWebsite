@@ -92,7 +92,7 @@ a.undec-link {
 	font-family: 'Open Sans' , sans-serif;
 	font-size: 1.6em;
 	font-weight: bold;
-	width: 5em;
+	width: 12em;
 	padding: 0.2em;
 	margin-left: auto;
 	margin-right: auto;
@@ -122,6 +122,11 @@ td#proj-cell {
 	text-align: center;
 	box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.14), 0 1px 4px 0px rgba(0, 0, 0, 0.12);
 	background-color: #ececec;
+}
+
+.project-text {
+	width: 90%;
+	margin: auto;
 }
 
 .projects-footer {
