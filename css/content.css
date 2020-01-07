@@ -23,7 +23,7 @@
 #portrait {
 	position: absolute;
 	display: block;
-	top: 4em;
+	top: 9vh;
 	left: 50%;
 	margin-left: -100px;
 	z-index: 25;
