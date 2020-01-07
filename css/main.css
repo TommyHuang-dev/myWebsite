@@ -13,7 +13,7 @@ body {
 	min-height: 100vh;
 	top: 0px;
 	text-align: center;
-	background-color: #261e42;
+	background-image: linear-gradient(#171232, #1b4375);
 	z-index: 0;
 }
 
@@ -28,14 +28,14 @@ h1 {
 	font-size: 8em;
 	text-align: center;
 	color: #E9E9E9;
-	background-color: #20204b;
+	background-color: #2c1e47;
 	box-shadow: 0 0px 14px 0px rgba(0, 0, 0, 0.22), 0 4px 9px 1px rgba(0, 0, 0, 0.16);
 }
 
 h2 {
 	font-weight: normal;
 	position: relative;
-	top: 5.0em;
+	top: 4.5em;
 	font-family: 'Roboto', sans-serif;
 	color: #E9E9E9;
 	font-size: 3em;
