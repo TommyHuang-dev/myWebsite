@@ -147,6 +147,6 @@ td#proj-cell {
 	font-size: 0.7em;
 	font-family: 'Open Sans' , sans-serif;
 	background-color: #f0f0f0;
-	box-shadow: 0 0px 7px 0px rgba(0, 0, 0, 0.12), 0 2px 4px 0px rgba(0, 0, 0, 0.11);
+	box-shadow: 0 0px 5px 0px rgba(0, 0, 0, 0.1), 0 1px 3px 0px rgba(0, 0, 0, 0.1);
 }
 
