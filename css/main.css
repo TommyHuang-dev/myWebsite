@@ -42,11 +42,11 @@ h2 {
 }
 
 #resume-button {
-	position: sticky;
+	position: relative;
 	padding: 0.4em;
 	height: 2em;
 	width: 9em;
-	left: 88%;
+	left: 87%;
 	top: 1.5em;
 	font-size: 1em;
 	font-family: 'Open Sans', sans-serif;
