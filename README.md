@@ -1,2 +1,3 @@
 # myWebsite
-small website project so I can mess around with and learn more about html, css, and javascript.
+A personal website I created to learn and play around with HTML, CSS, and Javascript as well as showcase some of my proudest projects.
+View the site at https://tommyhuang.net/
