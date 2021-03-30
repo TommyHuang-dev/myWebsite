@@ -20,7 +20,7 @@ body {
 h1 {
 	font-weight: normal;
 	position: relative;
-	top: 1.5em;
+	top: 2.2em;
 	height: 1.3em;
 	width: 8em;
 	margin: auto;
@@ -35,7 +35,7 @@ h1 {
 h2 {
 	font-weight: normal;
 	position: relative;
-	top: 4.5em;
+	top: 6em;
 	font-family: 'Roboto', sans-serif;
 	color: #E9E9E9;
 	font-size: 3em;
