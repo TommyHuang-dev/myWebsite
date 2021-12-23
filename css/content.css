@@ -36,7 +36,7 @@
 	width: 60%;
 	height: max-content;
 	padding: 0.8em;
-	margin-top: 10em;
+	margin-top: 8em;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2em;
@@ -66,6 +66,12 @@ table#contact {
 	width: 100%;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+}
+
+a.bolded-link {
+	color: rgb(75, 75, 200);
+	font-weight: bold;
+	text-decoration: none;
 }
 
 a.undec-link {
@@ -106,12 +112,12 @@ table#main-content {
 	margin-top: 0.5em;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 60%;
 }
 
 td#proj-cell {
 	padding: 0.5em;
-	height: 8em;
+	height: 7em;
 }
 
 .project-box {
