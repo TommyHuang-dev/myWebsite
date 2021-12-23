@@ -23,10 +23,12 @@
 #portrait {
 	position: absolute;
 	display: block;
-	top: 14vh;
+	top: 14.5vh;
 	left: 50%;
 	margin-left: -100px;
 	z-index: 25;
+	border:6px solid rgb(100, 100, 110);
+    border-radius: 500px;
 }
 
 #about-section {
